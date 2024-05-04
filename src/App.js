@@ -4,14 +4,9 @@ import './App.css';
 
 function App() {
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission here
-  };
-
   return (
     <main>
-      <form onSubmit={handleSubmit}>
+      <form >
         <label>
           Name:
           <br />
